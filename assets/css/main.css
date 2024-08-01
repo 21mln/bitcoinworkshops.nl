@@ -164,6 +164,12 @@ a:hover {
     margin-top: var(--space-s, 1em);
 }
 
+/* Utilities */
+
+.body {
+    line-height: 1.7;
+}
+
 /* Blocks */
 
 .site-logo {
