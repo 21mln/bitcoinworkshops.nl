@@ -149,7 +149,15 @@ a:hover {
 }
 
 .flow > * + * {
+    margin-top: var(--space-2xl, 1em);
+}
+
+.flow--l > * + * {
     margin-top: var(--space-l, 1em);
+}
+
+.flow--m > * + * {
+    margin-top: var(--space-m, 1em);
 }
 
 .flow--s > * + * {
