@@ -135,10 +135,8 @@ a:hover {
 
 .wrapper {
     width: clamp(16rem, 93vw, 75rem);
-    padding-left: var(--space-s);
-    padding-right: var(--space-s);
-    margin-left: auto;
-    margin-right: auto;
+    padding-inline: var(--space-s);
+    margin-inline: auto;
 }
 
 /* Utilities */
