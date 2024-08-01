@@ -142,12 +142,6 @@ a:hover {
     margin-inline: auto;
 }
 
-/* Utilities */
-
-.body {
-    line-height: 1.7;
-}
-
 .flow > * + * {
     margin-top: var(--space-2xl, 1em);
 }
@@ -187,4 +181,23 @@ a:hover {
 
 .site-nav a:not(:hover) {
     text-decoration: none;
+}
+
+.card {
+    position: relative;
+    padding: var(--space-m);
+    background-color: #F7F9F2;
+}
+
+.card__link {
+    text-decoration: none;
+}
+
+.card__link::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
 }
