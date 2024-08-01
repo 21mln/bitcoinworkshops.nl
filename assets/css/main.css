@@ -59,6 +59,7 @@
 
     --gutter: var(--space-s-l);
     --wrapper: 1292px;
+    --tracking: -0.05ch;
 
     /* Colors */
     --color-primary: #fcb735;
@@ -85,6 +86,7 @@ body {
     padding-block: var(--space-l);
     line-height: 1.2;
     color: var(--color-dark);
+    letter-spacing: var(--tracking);
 }
 
 h1, h2 {
@@ -121,6 +123,7 @@ nav ul {
 
 header li + li {
     margin-left: var(--space-s);
+    letter-spacing: normal;
 }
 
 a {
