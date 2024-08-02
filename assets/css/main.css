@@ -58,7 +58,7 @@
     --space-s-l: clamp(1.125rem, 0.4728rem + 3.2609vw, 3rem);
 
     --gutter: var(--space-s-l);
-    --wrapper: 1292px;
+    --wrapper: 1200px;
     --tracking: -0.05ch;
 
     /* Colors */
@@ -137,7 +137,7 @@ a:hover {
 /* Composition */
 
 .wrapper {
-    width: clamp(16rem, 93vw, 75rem);
+    width: clamp(16rem, 93vw, var(--wrapper));
     padding-inline: var(--space-s);
     margin-inline: auto;
 }
